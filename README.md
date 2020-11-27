@@ -6,8 +6,8 @@ This image offers the Visual Code IDE without having to install it on your Windo
 
 My motivation behind this is to keep my host system clean for each project I am working on. In addition, I keep all Visual Code extensions on my host (for now) and bind the extension directory via  ```-v C:\Users\<WindowsUser>\vscode-extensions>:/home/vscode-extensions``` in the Docker run command (see <b>How?</b>)
 
-## Requirements
-Windows 10 (for which is this image tested for)<br>
+## Tested for following environment
+Windows 10<br>
 Docker Desktop <br> 
 VcXsrv X Server <br>
 
