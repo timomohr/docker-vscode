@@ -18,7 +18,7 @@ Execute the following Docker run command to initiate the vscode container<br>
 And execute ```start.bat```
 
 ## Addresses for screen sharing
-(just in case...)
+(just in case...)<br>
 ```macOS: DISPLAY=docker.for.mac.host.internal:0```<br>
 ```Windows: DISPLAY=host.docker.internal:0```<br>
 ```Linux: DISPLAY=:0```
