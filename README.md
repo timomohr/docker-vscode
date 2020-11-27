@@ -12,12 +12,13 @@ Docker Desktop <br>
 VcXsrv X Server <br>
 
 ## How?
-Run the following Docker run command to initiate the vscode container<br>
+Execute the following Docker run command to initiate the vscode container<br>
 ```docker container run -dt --env DISPLAY=[macOS]|[Windows]|[Linux] -v C:\Users\<WindowsUser>\vscode-extensions>:/home/vscode-extensions --name <container-name> <image-name>```<br>
 
 And execute ```start.bat```
 
 ## Addresses for screen sharing
+(just in case...)
 ```macOS: DISPLAY=docker.for.mac.host.internal:0```<br>
 ```Windows: DISPLAY=host.docker.internal:0```<br>
 ```Linux: DISPLAY=:0```
