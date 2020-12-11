@@ -25,6 +25,7 @@ RUN sudo apt-get -y install \
 	libgbm1 \
 	libasound2 \
 	libxtst6 \
+	curl \
 	--no-install-recommends
 
 #create user developer
